@@ -1,5 +1,5 @@
-#define BLYNK_TEMPLATE_ID "TMPL3xzNi5Iwq"
-#define BLYNK_TEMPLATE_NAME "Smart Meter"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
 
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
@@ -8,11 +8,11 @@
 #include <Adafruit_SSD1306.h>
 
 // Blynk Auth Token (Replace with your actual Auth Token)
-char auth[] = "XChGu4nkD6XzQvK56vuG6GxxBvCVq0cw";  // Your Auth Token
+char auth[] = "";  // Your Auth Token
 
 // Wi-Fi credentials
-const char* ssid = "NK";                   // Replace with your Wi-Fi SSID
-const char* password = "9345611558";       // Replace with your Wi-Fi Password
+const char* ssid = "";                   // Replace with your Wi-Fi SSID
+const char* password = "";       // Replace with your Wi-Fi Password
 
 // Server URL (if you're sending data to your own server)
 const char* serverUrl = "http://192.168.75.137:3000/data";
